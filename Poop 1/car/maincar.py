@@ -18,3 +18,5 @@ class Toyota:
     pass
 
 ford = Ford("Ford")
+bmw = BMW()
+toyota = Toyota()
