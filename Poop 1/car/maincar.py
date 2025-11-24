@@ -17,6 +17,6 @@ class BMW:
 class Toyota:
     pass
 
-ford = Ford("Ford")
-bmw = BMW()
-toyota = Toyota()
+ford = Ford("Viper")
+bmw = BMW("M2")
+toyota = Toyota("Supra")
