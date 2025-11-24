@@ -1,3 +1,4 @@
+
 class Person:
     def __init__(self, name, age, hobbies):
         self.name = name
@@ -14,6 +15,7 @@ person2 = Person("Liem", 14, "Basketball")
 print(person2.name)
 print(person2.age)
 print(person2.hobbies)
+
 
 
 person3 = Person("Akira", 20, "Boxing")
