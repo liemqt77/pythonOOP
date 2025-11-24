@@ -20,3 +20,5 @@ class Toyota:
 ford = Ford("Viper")
 bmw = BMW("M2")
 toyota = Toyota("Supra")
+
+print(ford.make)
