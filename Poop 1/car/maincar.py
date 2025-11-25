@@ -1,24 +1,25 @@
 class Car:
-    def __init__(self, make, model, year, engine):
+    def __init__(self, make):
         self.make = make
-        self.model = model
-        self.year = year
-        self.engine = engine
+
 
     def gaspedal(self):
-        print("f {self.make} is run" )
+        print(f"{self.make} Engine is start" )
 
-class Ford:
+class Ford(Car):
     pass
 
-class BMW:
+class BMW(Car):
     pass
 
-class Toyota:
+class Toyota(Car):
     pass
 
 ford = Ford("Viper")
+
 bmw = BMW("M2")
+
 toyota = Toyota("Supra")
 
 print(ford.make)
+Car.gaspedal(ford)
